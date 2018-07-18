@@ -1,0 +1,25 @@
+anssipki-common.h	: en-tête décrivant les classes de base
+string.cpp		: classe gérant des chaînes de caractères
+exception.cpp		: classe décrivant les exceptions
+sysutil.cpp		: quelques fonctions système utiles (reallyWrite/Read)
+
+anssipki-asn1.h		: en-tête décrivant les objets ASN.1
+asn1.cpp		: classes de base implémentant les objets ASN.1
+tbs.cpp			: classe abstraite décrivant un bloc de données à signer (TBS : ToBeSigned)
+
+anssipki-crypto.h	: en-tête décrivant les fonctions cryptographiques exportées
+sha1.cpp		: implémentation de la fonction de hachage SHA1
+sha2.cpp		: implémentation des fonctions de hachage SHA256, 384 et 512
+prng.cpp		: interfaces décrivant un générateur d'aléa
+urandom.cpp		: classe concrète d'un générateur d'aléa basé sur /dev/urandom
+barak_halevi.cpp	: classe concrète d'un PRNG impléménté selon l'article de Barak & Halevi (retraitement sûr)
+prime.cpp		: fonctions testant la primalité (et la friabilité) des grands entiers
+rsa.cpp			: classe contenant certaines opération RSA (génération de clé et signature)
+
+test_sha1.cpp		: test de SHA1
+test_sha2.cpp		: test de SHA2
+test_barak_halevi.cpp	: test du PRNG basé sur la classe BarakHaleviPRNG
+test_prime.cpp		: test du générateur de nombre premiers et de facteurs RSA
+test_prime_perfs.cpp	: test de performances du générateur de nombres premiers
+test_rsa.cpp		: test de génération de clés RSA
+test_RSA_factor.cpp	: programme vérifiant qu'un nombre donné respecte les conditions "facteur RSA" (voir prime.cpp)

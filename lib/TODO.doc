@@ -1,0 +1,20 @@
+Fait :
+anssipki-common.h
+string.cpp
+exception.cpp
+util.cpp
+
+A faire :
+
+anssipki-asn1.h
+asn1.cpp
+tbs.cpp
+
+anssipki-crypto.h
+prng.cpp
+urandom.cpp
+barak_halevi.cpp
+prime.cpp
+rsa.cpp
+sha1.cpp
+sha2.cpp

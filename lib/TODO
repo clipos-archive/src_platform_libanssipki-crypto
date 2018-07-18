@@ -1,0 +1,5 @@
+ - serialNumber doit être un entier positif !
+ - choisir si les messages d'erreurs et la documentation sont en français ou en anglais, et s'y tenir
+ - réduire le nombre d'exceptions spécifiques
+ - attention à UTCTIME, utilisé par défaut pour le moment
+ - ajouter des vrais logs : dans la boite et dans un fichier

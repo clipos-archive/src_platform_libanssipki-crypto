@@ -1,0 +1,12 @@
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=@libdir@
+includedir=@includedir@
+
+Name: anssipki-crypto
+Description: ANSSIPKI cryptographic functions
+Version: @VERSION@
+
+@PKGCONFIG_REQUIRES@:
+Libs: -L${libdir} -lanssipki-crypto
+Cflags: -I${includedir}

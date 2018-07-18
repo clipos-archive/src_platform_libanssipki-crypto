@@ -1,0 +1,16 @@
+A ecrire:
+exceptions
+string
+really_read/really_write
+entropy
+
+asn1gen/parse
+
+A reprendre:
+test_barak_halevi.cpp
+test_prime.cpp
+test_prime_perfs.cpp
+test_rsa.cpp
+test_RSA_factor.cpp
+test_sha1.cpp
+test_sha2.cpp

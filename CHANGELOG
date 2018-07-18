@@ -1,0 +1,109 @@
+# ChangeLog for <dev-libs>/<libanssipki-crypto>
+
+  01 Dec 2015; Yves-Alexis Perez <clipos@ssi.gouv.fr>
+  libanssipki-crypto-2.1.1.ebuild:
+  Add masked amd64 keyword.
+
+*libanssipki-crypto-2.1.1 (02 Mar 2015)
+
+  02 Mar 2015; Piotr Chmielnicki <clipos@ssi.gouv.fr>
+  +libanssipki-crypto-2.1.1.ebuild, -libanssipki-crypto-2.1.0-r1.ebuild:
+  Cleanly fixed parallel compilation
+
+*libanssipki-crypto-2.1.0-r1 (25 Feb 2015)
+
+  25 Feb 2015; Piotr Chmielnicki <clipos@ssi.gouv.fr>
+  +libanssipki-crypto-2.1.0-r1.ebuild, -libanssipki-crypto-2.1.0.ebuild:
+  Fixed compile bug
+
+*libanssipki-crypto-2.1.0 (23 Feb 2015)
+
+  23 Feb 2015; Piotr Chmielnicki <clipos@ssi.gouv.fr>
+  +libanssipki-crypto-2.1.0.ebuild, -libanssipki-crypto-2.0.2.ebuild:
+  Added the anssipki-genrsa tool
+
+*libanssipki-crypto-2.0.2 (11 Feb 2015)
+
+  11 Feb 2015; Piotr Chmielnicki <clipos@ssi.gouv.fr>
+  +libanssipki-crypto-2.0.2.ebuild, -libanssipki-crypto-2.0.1.ebuild:
+  Improved prime number generation (featuring LCR)
+
+*libanssipki-crypto-2.0.1-r1 (27 May 2014)
+
+  27 May 2014; Mickaël Salaün <clipos@ssi.gouv.fr>
+  +libanssipki-crypto-2.0.1-r1.ebuild, -libanssipki-crypto-2.0.1.ebuild:
+  Fix dependencies, cleanup ebuild and switch to EAPI 5.
+
+*libanssipki-crypto-2.0.1 (27 May 2014)
+
+  27 May 2014; Baptiste Gourdin <clipos@ssi.gouv.fr>
+  +libanssipki-crypto-2.0.1.ebuild,-libanssipki-crypto-2.0.0.ebuild:
+  Add namespace LIBANSSIPKI_CRYPTO to prevent collision with OpenSSL
+  ASN1_HASH_ALGO ASN1_ENCRYPT_ALGO constructors from DER
+
+  12 Aug 2013; Audrey Dahan <clipos@ssi.gouv.fr>:
+  Support for PKCS#1.5 padding
+  Class RSAKey new methods for private and public exponentiation
+
+  01 Oct 2013; Audrey Dahan <clipos@ssi.gouv.fr>:
+  RSA Private key from DER string
+
+*libanssipki-crypto-2.0.0 (09 Jan 2012)
+
+  09 Jan 2012; Olivier Levillain <clipos@ssi.gouv.fr>
+  +libanssipki-crypto-2.0.0,-libanssipki-crypto-1.3.0:
+  New version.
+
+  01 Dec 2011; Olivier Levillain <clipos@ssi.gouv.fr>:
+  Add a function to export the public key easily.
+
+  23 Nov 2011; Olivier Levillain <clipos@ssi.gouv.fr>:
+  Documented and cleaned some code.
+
+*libanssipki-crypto-1.3.0 (29 Sep 2010)
+
+  29 Sep 2010; Olivier Levillain <clipos@ssi.gouv.fr>
+  +libanssipki-crypto-1.3.0.ebuild,-libanssipki-crypto-1.2.0.ebuild:
+  Some performance improvements in the PRNGs.
+
+*libanssipki-crypto-1.2.0 (28 Sep 2010)
+
+  28 Sep 2010; Olivier Levillain <clipos@ssi.gouv.fr>
+  +libanssipki-crypto-1.2.0.ebuild,-libanssipki-crypto-1.1.0.ebuild:
+
+*libanssipki-crypto-1.1.0 (27 Sep 2010)
+
+  27 Sep 2010; Olivier Levillain <clipos@ssi.gouv.fr>
+  +libanssipki-crypto-1.1.0.ebuild,-libanssipki-crypto-1.0.0.ebuild:
+
+  27 Sep 2010; Olivier Levillain <clipos@ssi.gouv.fr>
+  +libanssipki-crypto-1.1.0.ebuild,-libanssipki-crypto-1.0.0.ebuild:
+
+  23 Sep 2010; Olivier Levillain <clipos@ssi.gouv.fr>:
+  Add some methods in RSAKey objects: a constructor from a DER String
+  and a keyIdentifier function to compute the SHA1 of the pubkey.
+
+*libanssipki-crypto-1.0.0 (20 Sep 2010)
+
+  20 Sep 2010; Olivier Levillain <clipos@ssi.gouv.fr>
+  +libanssipki-crypto-1.0.0.ebuild,-libanssipki-crypto-0.2.0.ebuild:
+  Merge with asn1 and common libs.
+
+  17 Sep 2010; Olivier Levillain <clipos@ssi.gouv.fr>:
+  Added functions in the key interface.
+
+  16 Sep 2010; Olivier Levillain <clipos@ssi.gouv.fr>:
+  Add naive_entropy to check the compressed size of an input
+  given by the user
+
+*libanssipki-crypto-0.2.0 (16 Sep 2010)
+
+  16 Sep 2010; Olivier Levillain <clipos@ssi.gouv.fr>
+  +libanssipki-crypto-0.2.0.ebuild,-libanssipki-crypto-0.1.0.ebuild:
+  BarakHalevi and PRNG classes added to replace previous functions.
+
+*libanssipki-crypto-0.1.0 (26 Aug 2010)
+
+  26 Aug 2010; Olivier Levillain <clipos@ssi.gouv.fr>
+  +libanssipki-crypto-0.1.0.ebuild:
+  Initial import.
